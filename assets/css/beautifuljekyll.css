@@ -814,11 +814,11 @@ table tr {
   background-color: #313131;
   margin: 0;
   padding: 0;
-  color:#313131;
+  color:#828282;
 }
 table tr:nth-child(2n) {
   background-color: #373737;
-  color:#313131;
+  color:#828282;
 }
 table tr th {
   font-weight: bold;

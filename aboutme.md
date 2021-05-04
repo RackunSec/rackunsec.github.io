@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Douglas Berdeaux - Penetration Tester / Developer
 ---
-Hello, and welcome to my weblog. My name is Douglas McLain Berdeaux and I am a Sr. Penetration Tester and developer for Schneider Downs & Co. In Pittsburgh, PA. 
+Rackün Security (previously WeakNet Labs) Founder, Python Newbie, Agile/Scrum Master, OSCP, OSWP, CSM, LINUX dev, and Sr. Pentester
 ### Pesonal and Profeessional Projects 
 - Rackün Security
 - Demon Linux

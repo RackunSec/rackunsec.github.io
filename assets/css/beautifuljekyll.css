@@ -895,6 +895,7 @@ pre {
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
+  color: #777676;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

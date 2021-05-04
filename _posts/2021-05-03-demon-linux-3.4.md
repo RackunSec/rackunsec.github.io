@@ -3,8 +3,8 @@ layout: post
 title: Demon Linux 3.4
 subtitle: Penetration Testing Debian Distro
 cover-img: /assets/img/screenshots/code-bg.jpg
-thumbnail-img: /assets/img/screenshots/demon-3.4-clouds.png
-share-img: /assets/img/screenshots/demon-3.4-clouds.png
+thumbnail-img: /assets/img/screenshots/demon-logo.png
+share-img: /assets/img/screenshots/demon-logo.png
 gh-badge: follow
 tags: [demon linux,linux]
 comments: true

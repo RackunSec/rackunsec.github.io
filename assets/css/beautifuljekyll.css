@@ -826,7 +826,8 @@ table tr th {
   text-align: left;
   margin: 0;
   padding: 0.375rem 0.8125rem;
-  color:#fff;
+  color:#eaeaea;
+  background-color:#4f4f4f;
 }
 table tr td {
   border: 1px solid #555;

@@ -666,6 +666,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header .post-heading .post-subheading {
   font-size: 1.6875rem;
   line-height: 1.1;
+  font-style:italic;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;

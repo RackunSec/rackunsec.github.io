@@ -48,11 +48,11 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: #AAA;
+  color: #fff;
 }
 a:hover,
 a:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: #fff;
 }
 blockquote {
   color: #808080;
@@ -124,7 +124,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
+  background-color: #877b6b;
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}

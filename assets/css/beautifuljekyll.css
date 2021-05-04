@@ -375,7 +375,7 @@ footer {
   border-top: 1px solid #3B3B3B;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #26241f;
+  background-color: #1d1c1a;
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;

@@ -845,7 +845,8 @@ table tr td :last-child {
 code {
   padding: 0.125rem 0.25rem;
   color: #c7254e;
-  background-color: #f9f2f4;
+  /*background-color: #f9f2f4;*/
+  background-color: #fff;
   border-radius: 0.25rem;
 }
 
@@ -863,7 +864,7 @@ pre {
 }
 .highlight pre {
   border: none;
-  background: none;
+  background-color: #fff;
   margin: 0;
 }
 .highlight > pre {

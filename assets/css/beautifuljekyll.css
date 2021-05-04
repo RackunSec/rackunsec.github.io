@@ -892,7 +892,7 @@ pre {
   margin: 0;
 }
 .highlight pre.lineno {
-  color: rgba(0,0,0,0.3);
+  color: rgb(113, 113, 113);
   border-radius: 0;
   border-right: 2px solid #444;
 }

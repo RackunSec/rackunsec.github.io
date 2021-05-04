@@ -82,14 +82,14 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #202020;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#0085A1" }};
+  background-color: #c77125;
 }
 ::selection {
-  color: #fff;
+  color: #202020;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#0085A1" }};
+  background-color: #c77125;
 }
 img::selection {
   color: #fff;
@@ -124,7 +124,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #2c2c2c;
+  background-color: #2b2924;
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}

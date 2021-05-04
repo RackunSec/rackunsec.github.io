@@ -7,15 +7,16 @@ layout: null
 /* --- General --- */
 
 html {
-  font-size: 100%
+  font-size: 100%;
+  background-color:#2e2e2e;
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Arial', serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
-  background-color: {{ site.page-col | default: "#FFFFFF" }};
+  background-color: {{ site.page-col | default: "#2e2e2e" }};
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;

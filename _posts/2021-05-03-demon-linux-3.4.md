@@ -3,7 +3,7 @@ layout: post
 title: Demon Linux 3.4
 subtitle: Penetration Testing Debian Distro
 gh-repo: rackunsec/dps
-cover-img: /assets/img/screenshots/demon-3.4-clouds.png
+cover-img: /assets/img/screenshots/code-bg.jpg
 thumbnail-img: /assets/img/screenshots/demon-3.4-clouds.png
 share-img: /assets/img/screenshots/demon-3.4-clouds.png
 gh-badge: [star, fork, follow]

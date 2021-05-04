@@ -16,8 +16,10 @@ author: Douglas McLain Berdeaux
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Demon Linux: "https://demonlinux.com"
+    - Github: "https://www.github.com/RackunSec/"
+    - YouTube: "https://www.youtube.com/channel/UCPeIW1Lodis1HHYCT1TnoVQ"
+    - LinkedIn: "https://LinkedIn.com/RackunSec"
   Author's home: "https://rackunsec.org"
 
 # --- Logo --- #

@@ -460,7 +460,7 @@ footer .footer-custom-content {
 .post-preview .post-title {
   font-size: 1.875rem;
   margin-top: 0;
-  font-style:none;
+  font-style:none !important;
 }
 .post-preview .post-subtitle {
   margin: 0;

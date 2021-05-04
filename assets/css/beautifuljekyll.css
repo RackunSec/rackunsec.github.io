@@ -124,7 +124,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #3a3a3a;
+  background-color: #2f2f2f;
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}

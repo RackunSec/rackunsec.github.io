@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Arial', serif;
+  /*font-family: 'Lora', 'Arial', serif;*/
+  font-family: 'Arial';
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;

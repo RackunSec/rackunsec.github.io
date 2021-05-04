@@ -15,7 +15,7 @@ body {
   /*font-family: 'Lora', 'Arial', serif;*/
   font-family: 'Arial';
   font-size: 1.125rem;
-  color: #fdedd6;
+  color: #d0ceb9;
   position: relative;
   background-color: #2e2e2e;
   {% if site.page-img %}

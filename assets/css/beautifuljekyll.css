@@ -432,6 +432,7 @@ footer .footer-custom-content {
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
+  font-style:italic;
 }
 
 @media (min-width: 768px) {

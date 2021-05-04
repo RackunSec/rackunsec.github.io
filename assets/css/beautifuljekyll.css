@@ -15,7 +15,7 @@ body {
   /*font-family: 'Lora', 'Arial', serif;*/
   font-family: 'Arial';
   font-size: 1.125rem;
-  color: #8a8174;;
+  color: #fdedd6;
   position: relative;
   background-color: #2e2e2e;
   {% if site.page-img %}
@@ -447,7 +447,7 @@ footer .footer-custom-content {
 .post-preview a {
   text-decoration: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #7d7d7d;
+  color: #aeaeae;
 }
 
 .post-preview a:focus,

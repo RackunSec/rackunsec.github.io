@@ -15,7 +15,7 @@ body {
   /*font-family: 'Lora', 'Arial', serif;*/
   font-family: 'Arial';
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#404040" }};
+  color: #aaa;
   position: relative;
   background-color: #2e2e2e;
   {% if site.page-img %}
@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: {{ site.link-col | default: "#008AFF" }};
+  color: #AAA;
 }
 a:hover,
 a:focus {

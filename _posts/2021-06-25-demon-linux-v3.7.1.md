@@ -29,6 +29,8 @@ _Figure 0x0: Demon Linux desktop environment screenshot_
 * Bug fixes and tweaks to UI
 * Smaller ISO!! How did I do it!?!?
 
+![Demon Linux 3.7.x Screenshot](/assets/img/screenshots/demon-3.7-screenshot-1.png "Demon Linux 3.7.x Screenshot")
+_Figure 0x0: Demon Linux desktop environment screenshot_
 ## Download and Installation
 You can download a copy of the Demon Linux ISO [from my website here](https://demonlinux.com). Installation is pretty straight forward, but ensure that you are only installing it within VMWare as I cannot support all hardware for systems all over the world. Keeping your penetration testing distribution containerized with VMWare is a convenient way to restore it and shred sensitive information after each penetration test you perform for your clients.
 

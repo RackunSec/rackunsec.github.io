@@ -44,6 +44,7 @@ This is the easiest way to conduct a web application penetration test for a clie
 are good to go. A simple visualization of this would look something like the following figure below.
 
 ![No Proxy, Just VPN](/assets/img/screenshots/no-stack.png "No proxy, just VPN")
+
 ***Figure 0.0 No proxy, just a straight VPN connection. Easy Peasey.***
 
 ---
@@ -74,6 +75,7 @@ Now, when we make HTTP requests, they will all be tunneled through our SSH proxy
 not had any luck doing it that way anyway, so I stick to this method. A simplified network diagram of this in action can be seen in the figure below.
 
 ![Simple Stack Proxy With Burp Suite and SSH](/assets/img/screenshots/small-stack.png "Simple Stack Proxy With Burp Suite and SSH")
+
 ***Figure 1.0 A single Proxy Host - 1 Internal Hop to Get to the Internally-accessible Web Application Using a Drop/Implant Box***
 
 ---
@@ -98,9 +100,11 @@ So, what if we want to use other tools, such as [SSLSCan](https://github.com/rbs
     2. choose to either listen on your RDP hosts specific IP address, or all interfaces.
 7. Next, on our local machine, we set Burp Suite to use a proxy. We will use port `9050` which is our current SSH proxy to our drop box on the client's network;
 8. Finally, we set an Upstream Proxy to be that of the RDP host that the client provided along with the Burp Suite proxy listener port: `8888`
+
 That's a lot to take in, I'm sure! Let's take a look at this in the figure below.
 
 ![Medium Stack Proxy With Burp Suite and SSH](/assets/img/screenshots/med-stack.png "Medium Stack Proxy With Burp Suite and SSH")
+
 ***Figure 2.0 Medium Stack Proxy with 2 Internal Hops To Access The Target Internally-Accessible Web Application***
 
 ---
@@ -113,6 +117,7 @@ we will add one to the client-provided RDP box's Burp Suite instance as well. I 
 It was working. This is what our netwoprk diagram looks like in the figure below.
 
 ![The Venti Stack - 3 Internal Hops Diagram](/assets/img/screenshots/big-stack.png "The Venti Stack - 3 Internal Hops Diagram")
+
 ***Figure 3.0 The behemoth Venti Stack to Access The Internal Web Application - 3 Internal Hops***
 
 This is hard to articulate so let me lay it out one more time:

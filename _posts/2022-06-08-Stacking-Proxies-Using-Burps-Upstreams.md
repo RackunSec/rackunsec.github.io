@@ -54,6 +54,7 @@ If this box was already on site, say from a previous penetration test/engagement
 still find ourselves wanting to use our own local machine to conduct the web application penetration test. We can do this using an SSH tunnel to the drop box over VPN.
 1. connect to the client's VPN; and
 2. create a proxy to the drop box using SSH like so,
+
 ```bash
 ssh -i (PUBLIC SSH KEY) (USERNAME)@(DROP BOX IP) -qD 9050
 ```

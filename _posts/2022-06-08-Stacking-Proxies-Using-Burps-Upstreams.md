@@ -146,7 +146,7 @@ Some issues that I came across all seemed to stem from my RDP session to the cli
 **HTTP 407 Proxy Authentication Required**
 
 If you see this message while running wfuzz or some other scanning tool, you may need to unlock the RDP session screen and refresh the target web application in the browser of the RDP box.
-I know this seems weird, but it was working for me. It's like giving the proxy connection from the RDp box CPR.
+I know this seems weird, but it was working for me. It's like giving the client's internal domain proxy connection from the client's RDP box CPR.
 
 **Local Burp Suite Starts Prompting For Credentials**
 

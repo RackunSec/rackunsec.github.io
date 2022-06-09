@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stacking Proxies With Burp Suite's Upstreams
-subtitle: Penetration Testing Internal Web Apps For Clients
+subtitle: Penetration Testing Internal Web Apps For Clients Remotely
 cover-img: /assets/img/burp-suite-blue.png
 thumbnail-img: /assets/img/burp-suite-blue.png
 share-img: /assets/img/burp-suite-blue.png

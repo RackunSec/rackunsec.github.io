@@ -3,7 +3,7 @@ layout: post
 title: Kerberos Within Linux Browser 
 subtitle: How to use kerberos Authentication for web applications in Linux
 cover-img: /assets/img/screenshots/code-bg.jpg
-thumbnail-img: /assets/img/screenshots/kerberos.png
+thumbnail-img: /assets/img/kerberos.png
 share-img: /assets/img/screenshots/kerberos.png
 gh-badge: follow
 tags: [demon linux,linux, kerberos]

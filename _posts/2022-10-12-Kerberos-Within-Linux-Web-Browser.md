@@ -13,7 +13,7 @@ comments: true
 I was on a penetration test recently in which the target web application used SSO and a kerberos ticket for authentication. The authentication for the web application was done using a cutomized version of [Kerberizer](https://kerberizer.sourceforge.net/). 
 
 My client sent me a computer to use for the test which connected to their domain via VPN. Once connected, the established session had a valid Kerberos ticket and the browser was automatically set to use this for the target web application. 
-The probalem that I had was that the system had Crowdstrike installed which disagreed with a lot of the tools that I normally use during a web application penetation test. Plus it was a Windows system. That's always a problem for me but I digress. I *was* allowed to install VirtualBox and use a VM, however.
+The problem that I had was that the system had Crowdstrike installed which disagreed with a lot of the tools that I normally use during a web application penetation test. Plus it was a Windows system. That's always a problem for me but I digress. I *was* allowed to install VirtualBox and use a VM, however.
 
 So, to get the Windows/Kerberos session into my VirtualBox was actually quite easy, but I muffed up in the process during my initial attempt. 
 I naively thought, "*why not just use [lsassy](https://github.com/Hackndo/lsassy) and extract the current ticket from my host? I mean, what could go wrong?* Crowdstrike put an end to the testing for that day. To be fair, this is actually how I learned that CS was installed on this system. 
@@ -21,17 +21,17 @@ I naively thought, "*why not just use [lsassy](https://github.com/Hackndo/lsassy
 Embarassed, but determined, I tried the next day with some more research. *"How could I extract the ticket in the Windows host safely and place it int my VM?"* Then the obvious dawned on me: I was in the client's domain. Derp. Sometimes, I just can't come up with excuses for why I do some things. 
 ## Step 1 - Identify the Domain Name
 From the Windows host, I ran the following command in a DOS terminal:
-```dos
+```bash
 ipconfig /all
 ```
 This command told me the domain name I was conencted to. 
 ## Step 2 - Identify the Domain Controller(s) 
 Then, I ran:
-```dos
+```bash
 nltest /dclist:(DOMAIN NAME)
 ```
 Substitute the `(DOMAIN NAME)` for your domain. This command told me the domain controllers used in the client's domain (which, surprisingly was just 1 domain controller). Then, I got the DC IP address with:
-```dos
+```bash
 nslookup (DC NAME).(DOMAIN NAME)
 ```
 With the DC name and IP address, I went to my VM and added them into my `/etc/hosts` file:
